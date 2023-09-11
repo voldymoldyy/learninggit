@@ -2,5 +2,13 @@
 
 int main()
 {
-    std::cout << "hello world";
+    int n;
+    for (int i = 1; i <= 10; i++)
+    {
+        std::cin >> n;
+    }
+    for (int i = 1; i <= 10; i++)
+    {
+        std::cout << n;
+    }
 }
