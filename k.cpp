@@ -2,13 +2,10 @@
 
 int main()
 {
-    int n;
-    for (int i = 1; i <= 10; i++)
+    std::string s = "sorry baby";
+    for (int i = 0; i <= 100; i++)
     {
-        std::cin >> n;
-    }
-    for (int i = 1; i <= 10; i++)
-    {
-        std::cout << n;
+        std::cout << s;
+        std::cout << "\n";
     }
 }
